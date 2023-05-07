@@ -1,9 +1,11 @@
 ### Elena Galkina
 
+![picture](C:\Users\User\Desktop\picture.jpg)
+
 - Address: Kaluga, Russia
 - Phone: +7 980 716 39 11
-- E-mail: [algalkinaevgen14@gmail.com](algalkinaevgen14@gmail.com)
-- [GitHub:](https://alena299.github.io/rsschool-cv/cv)
+- E-mail: <algalkinaevgen14@gmail.com>
+- [GitHub:](https://alena299.github.io/rsschool-cv/)
 
 ## About Me
 
