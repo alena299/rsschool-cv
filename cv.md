@@ -1,6 +1,6 @@
 ### Elena Galkina
 
-![picture](C:\Users\User\Desktop\picture.jpg)
+![picture](picture.jpg)
 
 - Address: Kaluga, Russia
 - Phone: +7 980 716 39 11
