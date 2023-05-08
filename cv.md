@@ -5,7 +5,7 @@
 - Address: Kaluga, Russia
 - Phone: +7 980 716 39 11
 - E-mail: <algalkinaevgen14@gmail.com>
-- [GitHub:](https://alena299.github.io/rsschool-cv/)
+- [GitHub:](https://alena299.github.io/rsschool-cv/cv)
 
 ## About Me
 
