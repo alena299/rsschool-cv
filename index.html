@@ -11,14 +11,13 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;"
     />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
   </head>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+  <div class="container">
   <body>
     <header class="header">
-      <div class="container"></div>
-      <img src="assets/img/picture.jpg" alt="picture" srcset="" />
-      Elena Galkina
+     
       <nav class="nav">
         <ul class="nav-list">
           <li class="nav-item">
@@ -47,10 +46,85 @@
       </nav>
     </header>
     <main class="main">
-      <div class="container">main cv</div>
+      <section class="section" id="profile">
+        <img src="assets/img/picture.jpg" alt="picture" srcset="" />
+        <h1>Elena Galkina</h1> 
+        <h3>Junior JavaScript developer</h3>
+      </section>
+      <section class="section" id="contacts">
+        <h2>Contacts</h2>
+        <ul>
+          <li>Address: Kaluga, Russia</li>
+          <li>E-mail: algalkinaevgen14@gmail.com</li>
+          <li>GitHub: https://github.com/alena299</li>
+        </ul>
+                    
+      </section>
+      <section class="section" id="summary">
+        <h2>Summary</h2>
+<div class="about">
+  <p>
+    Hello. I have been educated as economist. But the last 11 years I worked in logistics.
+Now I have decided to learn new profession and that is why I am studying in RS School. I wish to become Frontend developer and to find new job in another country. I worked as a leader of small team and I knew what is team work.
+Now I am only in the beginning of my way, but I am ready to study and to work hardly.
+
+  </p>
+</div>
+      </section>
+      <section class="section" id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML (Basic)
+          </li>
+          <li>CSS (Basic)
+            
+            </li>
+          <li>JavaScript (Basic)</li>
+          <li>Git</li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2>Code</h2>
+        <pre>
+          <code>
+            function simpleMultiplication(number) {
+              if(number % 2 === 0 ) {
+                return number * 8;
+               } else {
+               return number * 9;
+               }
+           }
+          </code>
+        </pre>
+      </section>
+      <section class="section" id="courses">
+        <h2>Courses</h2>
+        <p>RS School. JS/Frontend. Stage 1</p>
+      </section>
+      <section class="section" id="projects">
+        <h2>Projects</h2>
+        <p>https://alena299.github.io/rsschool-cv</p>
+      </section>
+      <section class="section" id="education">
+        <h2>Education</h2>
+          <p>Ternopil Commercial Institute, Ternopil, Ukraine. Bachelor in Economics of Enterprise</p>
+                 
+      </section>
+      <section class="section" id="languages">
+        <h2>Languages</h2>
+          <ul>
+            <li>Russian and Ukrainian – native speaker
+              </li>
+            <li>
+              English – B2.
+            </li>
+          </ul>
+        
+      </section>
     </main>
     <footer class="footer">
-      <div class="container">languages</div>
+      <div class="container">some info</div>
     </footer>
+  </div>
   </body>
 </html>

@@ -3,6 +3,7 @@ body {
     display: flex;
   flex-direction: column;
   justify-content: space-between;
+
 }
 * {
     box-sizing: border-box;
@@ -15,11 +16,19 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-  }
-  .nav-list {
     list-style: none;
   }
+  
   .nav-link {
     padding: 0 20px;
     line-height: 50px;
+    transition: .3s;
+  }
+  html {
+    scroll-behavior: smooth; 
+  }
+  .about {
+    background-color: aquamarine;
+    margin-right: 50pc ;
+    
   }
