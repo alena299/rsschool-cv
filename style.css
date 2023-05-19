@@ -3,7 +3,9 @@ body {
     display: flex;
   flex-direction: column;
   justify-content: space-between;
-
+  font-weight: 400;
+  color: #0f0111;
+  background-color: rgb(243, 236, 205);
 }
 * {
     box-sizing: border-box;
@@ -27,8 +29,63 @@ body {
   html {
     scroll-behavior: smooth; 
   }
-  .about {
-    background-color: aquamarine;
-    margin-right: 50pc ;
+  
+  
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 50%;
+  }
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+  .colorcode {
+    color: blue;
+    font-weight: 600;
+  }
+  .section-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: #150327;
+  }
+  .link {
+    text-decoration: none;
+    color: #829985;
+    transition: color 0.5s;
+  }
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .rss {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+  .footer {
+    background-color: gray;
+  }
+  .github {
+    color: black;
+    display: flex;
+   
+    justify-content: flex-start;
+   
     
+   
+       
+  }
+  .header {
+    background-color: #829985;
+    color: #0f0111;
+  }
+  .year {
+    font-weight: 800;
+
   }

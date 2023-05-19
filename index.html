@@ -17,24 +17,24 @@
   <div class="container">
   <body>
     <header class="header">
-     
+     <div class="container hcontain">
       <nav class="nav">
         <ul class="nav-list">
           <li class="nav-item">
             <a href="#contacts" class="nav-link">Contacts</a>
           </li>
           <li class="nav-item">
-            <a href="#summary" class="nav-link"></a>Summary
+            <a href="#summary" class="nav-link">Summary</a>
           </li>
           <li class="nav-item">
-            <a href="#skills" class="nav-link"></a>Skills
+            <a href="#skills" class="nav-link">Skills</a>
           </li>
-          <li class="nav-item"><a href="#code" class="nav-link"></a>Code</li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
           <li class="nav-item">
-            <a href="#courses" class="nav-link"></a>Courses
+            <a href="#courses" class="nav-link">Courses</a>
           </li>
           <li class="nav-item">
-            <a href="#projects" class="nav-link"></a>Projects
+            <a href="#projects" class="nav-link">Projects</a>
           </li>
           <li class="nav-item">
             <a href="#education" class="nav-link">Education</a>
@@ -44,9 +44,10 @@
           </li>
         </ul>
       </nav>
+    </div>
     </header>
-    <main class="main">
-      <section class="section" id="profile">
+    <main class="main-container">
+      <section class="section-title" id="profile">
         <img src="assets/img/picture.jpg" alt="picture" srcset="" />
         <h1>Elena Galkina</h1> 
         <h3>Junior JavaScript developer</h3>
@@ -54,9 +55,17 @@
       <section class="section" id="contacts">
         <h2>Contacts</h2>
         <ul>
-          <li>Address: Kaluga, Russia</li>
-          <li>E-mail: algalkinaevgen14@gmail.com</li>
-          <li>GitHub: https://github.com/alena299</li>
+          <li class="section-item contacts">
+           E-mail: 
+           <a href="algalkinaevgen14@gmail.com" title="email">algalkinaevgen14@gmail.com</a>
+          </li>
+          <li class="section-item contacts">
+            Address: Kaluga, Russia</li>
+          </li>
+          <li class="section-item contacts">
+            GitHub: 
+            <a href="https://github.com/alena299/" title="email">alena299</a>
+          </li>
         </ul>
                     
       </section>
@@ -85,7 +94,7 @@ Now I am only in the beginning of my way, but I am ready to study and to work ha
       </section>
       <section class="section" id="code">
         <h2>Code</h2>
-        <pre>
+        <pre class="colorcode">
           <code>
             function simpleMultiplication(number) {
               if(number % 2 === 0 ) {
@@ -99,11 +108,11 @@ Now I am only in the beginning of my way, but I am ready to study and to work ha
       </section>
       <section class="section" id="courses">
         <h2>Courses</h2>
-        <p>RS School. JS/Frontend. Stage 1</p>
+        <p>RS School. JS/Frontend. Stage 0</p>
       </section>
       <section class="section" id="projects">
         <h2>Projects</h2>
-        <p>https://alena299.github.io/rsschool-cv</p>
+        <a href="https://alena299.github.io/rsschool-cv/" title="project">CV</a>
       </section>
       <section class="section" id="education">
         <h2>Education</h2>
@@ -122,9 +131,35 @@ Now I am only in the beginning of my way, but I am ready to study and to work ha
         
       </section>
     </main>
-    <footer class="footer">
-      <div class="container">some info</div>
-    </footer>
+<footer class="footer">
+  <div class="container-footer">
+   
+    <div class="github">
+    
+      <a href="https://github.com/alena299" class="github">
+        <img  width="20" src="assets/Github_logo_PNG1.png" alt="gitlogo">
+        <span>GitHub</span>
+      </a>
+    </div>
+  
+    <span class="year">2023</span>
+    <div class="rss">
+    <a class="rssimage" href="https://rs.school/js-stage0/">
+      <img  width="150" src="https://rs.school/images/rs_school_js.svg" alt="rssimage">
+    </a>
+  </div>
+  </div>
+
+
+
+
+</footer>
+
+
+
+      
+   
+   
   </div>
   </body>
 </html>
